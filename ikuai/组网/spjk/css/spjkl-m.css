@@ -1,0 +1,21 @@
+.banner1 {
+    background: url("../img/head2.png") no-repeat center 0;
+    height: 400px;
+    width: 100%;
+}
+
+.banner1>div>.a {
+    font-size: 26px;
+    color: #f9ffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner1>#er {
+    font-size: 15px;
+    color: #f9ffff;
+    width: 85%;
+    text-align: center;
+    margin: 35px auto;
+    position: relative;
+}

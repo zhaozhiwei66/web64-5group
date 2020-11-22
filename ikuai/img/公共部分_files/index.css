@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+ul>li{
+    list-style-type: none;
+}
+.content{
+    position: relative;
+    top: 60px;
+    height: 1000px;
+}
+.header{
+    background-color: #2C3D4F;
+    height: 60px;
+    line-height: 60px;
+}
+.header>div>ul>li{
+    float: left;
+    width: 58px;
+    height: 60px;
+    line-height: 60px;
+}
+.header>div>ul>li>a{
+    color: #fff;
+}
+.header>div>ul>li>a:hover{
+    color: rgb(50,125,241);
+    text-decoration: none;
+}
