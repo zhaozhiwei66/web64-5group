@@ -1,0 +1,301 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,button,input{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+  }
+  :focus {
+      outline: 0;
+  }
+  body {
+      line-height: 1;
+      color: black;
+      background: white;
+  }
+  ol, ul {
+      list-style: none;
+  }
+  table {
+      border-collapse: separate;
+      border-spacing: 0;
+  }
+  caption, th, td {
+      text-align: left;
+      font-weight: normal;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+      content: "";
+  }
+  blockquote, q {
+      quotes: "" "";
+  } 
+    .logo img{
+        float: left;
+        margin-top: 20px;
+    }
+    .nav_gd{
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        width: 100%;
+        background: #fff;
+    }
+    .nav_t{
+        height: 86px;
+        line-height: 86px;
+    }
+    .nav_t li{
+        width: 70px;
+        height: 45px;
+        float: left;
+        font-size: 20px;
+    }
+    .nav_t a{
+        text-decoration: none;
+        color: #000;
+    }
+    .nav_t li a:hover{
+        color: #497cdc;
+        background: #fff;
+    }
+    .nav1{
+        width: 100%;
+        height: 54px;
+        background: #2a3642;
+    }
+    .nav2{
+        width: 48px;
+        height: 48px;
+        float: left;
+        margin-top: 0px !important;
+        margin-left: 10px;
+    }
+    .nav3{
+        width: 86px;
+        height: 18px;
+        float: right;
+        margin-top: 0px !important;
+        margin-right: 10px;
+    }
+    .nav4{
+        float: right;
+    }
+    .nav4 img{
+        width: 85px;
+        height: 18px;
+        margin-top: 18px;
+        margin-right: 10px;
+    }
+    .nav5{
+        background: #2a3642;
+    }
+    .nav6{
+        width: 240px;
+        height: 100%;
+        background: rgb( 42, 54, 66, 0.95);
+        position: fixed;
+        top:50px;   
+        left: 0;    
+        z-index: 100;
+        font-size: 14px;
+        font-weight: 100;
+    }
+    .nav6>ul>li{
+        margin-top: 10px;
+    }
+    .nav6>ul>li>a{
+        color: #fff !important;
+        margin-left: 20px;
+    }
+ 
+    .lbt1{
+        width: 100%;
+        height: 753px;
+        background: url(../images/v10/zm-b1-v10.png);
+        background-position: center;
+    }
+    .lbt1_1{
+        position: absolute;
+        bottom: -10px;
+        z-index: -1;
+    }
+    .lbt1_1 img{
+        width: 100%;
+        height: 100%;
+    }
+    .lbt1_2 img{
+        margin-top: 55px;
+    }
+    .lbt1_3{
+        margin-top: 20px;
+        font-size: 24px;
+        color: #fff;
+    }
+    .lbt2{
+        width: 100%;
+        height: 753px;
+        background: url(../images/tq/banner.jpg);
+        background-position: center;
+    }
+    .lbt1_4 img{
+        margin-top: 30px;
+    }
+    .lbt3{
+        width: 100%;
+        height: 753px;
+        background: url(../images/sp/sp_b1.jpg);
+        background-position: center;
+    }
+    .btn button{
+        width: 315px;
+        height: 55px;
+        font-size: 22px;
+        font-weight: 100;
+        border-radius: 0;
+        margin-top: 32px;
+    }
+    .btn1{
+        color: #03b5f5;
+        background: #fff;
+    }
+    .btn2{
+        color: #000;
+        background: #fff;
+        margin-right: 5px;
+    }
+    .btn3{
+        color: #fff;
+        background: none;
+        border: solid #fff 1px;
+        margin-left: 5px;
+    }
+    .btn img{
+        float: right;
+        margin-right: 15px;
+        margin-top: 6px;
+    }
+
+    .mp{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .sel{
+        width: 100%;
+        height: 420px;
+    }
+    .sel>li>a{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: #000;
+    }
+    .sel>li>a>img{
+        margin-top: 110px;
+    }
+    .sel1{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .sel1 div{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: #000;
+    }
+    .sel1 li{
+        max-width: 285px;
+        font-size: 14px;
+        display: block;
+        text-decoration: none;
+        color: #000;
+        margin-top: 40px;
+        line-height: 150%;
+    }
+    .sel1>li>span{
+        font-size: 18px;
+        font-weight: 100;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .sel2{
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 40px;
+    }
+
+    .btm_bg{
+        width: 100%;
+        background: #f7f7f7;
+    }
+    .btm li{
+        margin-top: 85px;
+    }
+    .btm>li>p{
+        font-size: 24px;
+        color: #cececd;
+    }
+    .btm>li>p>a{
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+    }
+    .btm>li>p>a:hover{
+        color: #497cdc;
+    }
+    .btm1{
+        margin-top: 24px;
+        margin-left: -20px;
+    }
+    .btm2{
+        font-size: 14px;
+        color: #aaa;
+        text-align: left;
+        margin-left: 100px;
+    }
+    .btm2 a{
+        color: #aaa;
+        text-decoration: none;
+    }
+    .btm2 a:hover{
+        color: #2abc98;
+    }
+    .btm3{
+        margin-top: 12px;
+    }
+
+    @media screen and (max-width: 991px){
+        .logo{
+            height: 54px;
+            margin-left: 35%;
+        }
+        .nav_t{
+            position: relative;
+            right: 20%;
+        }
+        .sel1 li{
+            max-width: 100%;
+        }
+    }
+
+
+    .bg_back{
+        width: 100%;
+        height: 304px;
+        margin-top: 80px;
+        background: url(../images/support/head.jpg);
+        background-size: 100% 100%;
+    }
+    .bg_about{
+        width: 100%;
+        height: 304px;
+        margin-top: 80px;
+        background: url(../images/about/head\ \(1\).jpg);
+        background-size: 100% 100%;
+    }
