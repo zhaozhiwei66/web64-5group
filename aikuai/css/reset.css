@@ -1,0 +1,296 @@
+*{
+    margin:0;
+    padding:0;
+    max-width:1920px;
+}
+h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, form, img, p, hr, samp, em {
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.head_lay{
+    border: 0;
+    background:#f2f2f2;
+    width: 100%;
+    position:fixed;
+    z-index:999;
+}
+.head_top{
+    background:#2c3d4f;
+    min-height:60px;
+    border-radius:0;
+}
+.head_top .navbar-brand {
+    height: 60px;
+    margin-right: 20px;
+    padding-left: 0;
+}
+.navbar-toggle .icon-bar {
+    background: #E4E4E4;
+}
+
+/*返回顶部*/
+.go_up {
+    background: url("../img/go_up.png") no-repeat;
+    width: 58px;
+    height: 58px;
+    display: block;
+}
+@media (min-width: 767px){
+ 
+    .head_top .nav > li {
+        position: inherit;
+    }
+    .navbar-nav > li > a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .nav > li > a.en {
+        padding-right: 10px;
+        background: url('../img/slash.png') no-repeat right center;
+    }
+    .nav > li > a.ch {
+        padding-left: 3px;
+    }
+ 
+    .navbar-nav > li > a:hover {
+        border-bottom: 2px solid #327DF1;
+        padding-bottom: 18px;
+    }
+    .head_top .nav>li>a:hover, .head_top .nav>li>a:focus {
+        color: #327DF1!important;
+        background-color: inherit;
+    }
+    .head_top .nav .nav-child {
+        display: none;/*隐藏二级栏目*/
+    }
+    .navbar-nav > li .btn_navs {
+        padding-top: 6px;
+        padding-bottom: 6px;
+        width: 88px;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .navbar-nav > li a.btn_navs:hover {
+        padding-bottom: 6px;
+        border-bottom: 1px solid #fff;
+        color: #fff!important;
+        background: #327DF1!important;
+        border-color: #327DF1!important;
+    }
+    .btn_navs {
+        border: 1px solid #FFFFFF;
+        border-radius: 2px;
+        margin-left: 22px;
+    }
+/*二级栏目部分*/
+    #menu_show > .nav-child {
+        padding: 30px 0 25px 15px;
+    }
+    .small {
+        font-size: 14px;
+    }
+    .menu_show {
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    #menu_show .nav-child li .nav-child {
+        position: relative;
+        padding: 8px 0;
+        left: 0;
+    }
+    #menu_show >.nav-child >li {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 70px;
+    }
+    #menu_show .nav-child li .nav-child li {
+        display: block;
+        padding: 6px 0;
+    }
+    #menu_show .nav-child a {
+        color: #666666;
+        font-weight: 600;
+        text-decoration: none;
+    }
+    #menu_show .nav-child li .nav-child li a {
+        font-weight: normal;
+    }
+
+
+
+
+
+ 
+
+
+}
+
+   /*PC端底部*/
+   footer {
+    padding-top: 50px;
+    background: #f2f2f2;
+    font-family: 'Microsoft YaHei';
+}
+footer .container {
+    padding-bottom: 0;
+}
+footer .row {
+    border-bottom: 1px solid #DBDBDB;
+    padding-bottom: 50px;
+}
+.foot_li > ul >li {
+    float: left;
+    width: 25%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.foot_li > ul >li >span {
+    color: #666;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    cursor: default;
+    display: block;
+}
+.foot_li ul ul li {
+    margin: 0 0 13px 0;
+}
+.foot_li ul ul li a {
+    color: #666;
+    font-size: 14px;
+    text-decoration: none;
+}
+.foot_li ul ul li a:hover, .foot_li ul ul li a:focus {
+    color: #327DF1;
+}
+
+
+
+/*右侧*/
+.footer-servies {
+    margin-top: 30px;
+}
+
+.contact_info {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    color: #999;
+}
+.label_contact {
+    font-size: 14px;
+    color: #999;
+    margin-top: 2px;
+}
+.num_contact {
+    font-size: 24px;
+    color: #999;
+    font-weight: bolder;
+    margin: 2px 0 15px 0;
+}
+.contact_info > img {
+    width: 120px;
+}
+.company_adress {
+    margin-top: 25px;
+    padding-right: 10px;
+    float: right;
+}
+
+.company_adress span{
+font-size: 14px;
+color: #999;
+margin-left: 8px;
+vertical-align: top;
+letter-spacing: 1px;
+}
+.copyrights {
+    padding: 20px 0;
+    color: #545F6B;
+}
+
+
+/*移动端*/
+@media only screen and (max-width: 767px) and (min-width: 0px){
+.head_top .navbar-brand {
+    padding-left: 15px;
+}
+.head_top .navbar-brand img{
+    width: 80%;
+}
+.head_top .navbar-collapse.in {
+    background: #E2E2E2;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.5);
+}
+.navbar-collapse.in {
+    max-height: 440px;
+}
+.head_top .nav-child {
+    display: none;
+}
+.head_top .navbar-nav > li > a {
+    color: #666666!important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.head_top .navbar-nav >li>.nav-child {
+    background: #fff;
+    padding: 6px 5px 6px 20px;
+}
+.head_top .navbar-nav >li>.nav-child li {
+    padding: 10px 0;
+}
+
+
+
+.nav-child li a {
+    color: #666;
+    display: block;
+    text-decoration: none;
+}
+
+.menu_3 > a, .menu_2 >a {
+    background: url('../img/creat_close.png') no-repeat 96% center;
+    display: block;
+}
+.opens > a {
+    background: url('../img/creats.png') no-repeat 96% center!important;
+}
+.nav-child li .nav-child {
+    padding: 6px 0 0 15px;
+}
+.nav-child li .nav-child a {
+    color: #999999;
+}
+
+
+
+/*底部*/
+.copyrights .col-xs-12 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    float: none;
+    color: #545F6B;
+    font-size: 13px;
+}
+.footer-servies {
+    text-align: center;
+}
+.contact_info > img {
+    width: 100px;
+    margin-bottom: 5px;
+}
+}
+@media only screen and (max-width: 600px){
+    .footer-servies .text-left, .company_adress {
+        display: none;
+    }
+    
+}
