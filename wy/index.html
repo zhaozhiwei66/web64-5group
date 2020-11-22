@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>wwww</title>
+	<title>index</title>
 	<link href="css/wy_reset.css" type="text/css" rel="stylesheet">
 	<link href="css/wy.css" type="text/css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
@@ -48,40 +48,30 @@
 	</div>
 	<div class="collapse navbar-collapse w1a1 col-lg-8" id="example-navbar-collapse">
 		<ul class="nav navbar-nav">
-			<li><a href="#">商城首页</a></li>
+			<li><a href="index.html">商城首页</a></li>
 			<!-- 1 -->
-			<li class="dropdown">
+			<li class="dropdown w1bt1">
 				<a href="#" data-toggle="dropdown">
-					商品分类 <b></b>
+					商品分类
 				</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">jmeter</a></li>
-					<li><a href="#">EJB</a></li>
-					<li><a href="#">Jasper Report</a></li>
+				<ul class="dropdown-menu w1lb2">
+					<li><a href="#">美之器物</a></li>
+					<li><a href="#">南之嘉木</a></li>
+					<li><a href="#">盆之绝景</a></li>
 					
 				</ul>
 			</li>
 				<!-- 2 -->
-				<li class="dropdown">
-					<a href="#" data-toggle="dropdown">
-						支付方式 <b></b>
-					</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">jmeter</a></li>
-						<li><a href="#">EJB</a></li>
-						<li><a href="#">Jasper Report</a></li>
-						
-					</ul>
-				</li>
-			<li><a href="#">节气故事</a></li>
-			<li class="dropdown">
+			
+				<li><a href="page/wy2.html">支付方式</a></li>
+			<li><a href="page/wy3.html">节气故事</a></li>
+			<li class="dropdown w1bt3">
 				<a href="#" data-toggle="dropdown">
-					关于嘉木 <b></b>
+					关于嘉木
 				</a>
-				<ul class="dropdown-menu">
-					<li><a href="#">jmeter</a></li>
-					<li><a href="#">EJB</a></li>
-					<li><a href="#">Jasper Report</a></li>
+				<ul class="dropdown-menu w1lb4">
+					<li><a href="#">联系我们</a></li>
+					<li><a href="#">关于嘉木</a></li>
 				</ul>
 			</li>
 			<li class="w1f11 visible-lg">
@@ -338,21 +328,21 @@
 	  </div>
 	  <div class="container w1hz1">
 	  <!-- 列表1 -->
-	  <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-5 col-sm-push-5">
+	  <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-10 col-sm-push-5">
 		  <li class="w1b11"><a href="#">支付方式</a></li>
 		  <li class="w1b12"><a href="#">在线支付</a></li>
 		  <li class="w1b12"><a href="#">货到付款</a></li>
 		  <li class="w1b12"><a href="#">银行转账</a></li>
 	  </ul>
 	   <!-- 列表2 -->
-	   <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-5 col-sm-push-5">
+	   <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-10 col-sm-push-5">
 		<li class="w1b11"><a href="#">支付方式</a></li>
 		<li class="w1b12"><a href="#">在线支付</a></li>
 		<li class="w1b12"><a href="#">货到付款</a></li>
 		<li class="w1b12"><a href="#">银行转账</a></li>
 	</ul>
 	 <!-- 列表3 -->
-	 <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-5 col-sm-push-5">
+	 <ul class="w1lb1 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-xs-push-10 col-sm-push-5">
 		<li class="w1b11"><a href="#">支付方式</a></li>
 		<li class="w1b12"><a href="#">在线支付</a></li>
 		<li class="w1b12"><a href="#">货到付款</a></li>
@@ -366,21 +356,31 @@
 </div>
 </div>
 </div>
-
-
-
-
-
-
 </body>
-<script type="text/javascript">
-	function w(){
-	  var iw=window.innerWidth;
-	  var fs=iw*100/1440;
-	  document.getElementsByTagName("html")[0].
-	  style.fontSize=fs+"px";
-  }
-   window.onresize=w;
-   w();  
+<script>
+	$(function(){
+        $(".w1bt1").mouseenter(function(){
+			$(".w1lb2").show(200);
+		})
+		$(".w1bt1").mouseleave(function(){
+			$(".w1lb2").hide(200);
+		})
+	})
+	$(function(){
+        $(".w1bt2").mouseenter(function(){
+			$(".w1lb3").show(200);
+		})
+		$(".w1bt2").mouseleave(function(){
+			$(".w1lb3").hide(200);
+		})
+	})
+	$(function(){
+        $(".w1bt3").mouseenter(function(){
+			$(".w1lb4").show(200);
+		})
+		$(".w1bt3").mouseleave(function(){
+			$(".w1lb4").hide(200);
+		})
+	})
 </script>
 </html>

@@ -7,20 +7,21 @@
     margin: 0;
     padding: 0;
 }
-
+/* 首页的css */
 .w1top{
-    height: 0.5rem;
+    height: 50px;
     background: #f8f8f8;
-    line-height: 0.5rem;
+    line-height:50px;
     color: #5b5b5b;
 }
 .w1t11>a{
  color:#535353;
 }
 .w1p1{
-    width: 0.6rem;
-    height: 1rem;
-    margin-top: 0.25rem;
+    width: 60px;
+    height: 80px;
+    margin: 0;
+    padding-top: 15px;
     
 }
 .w1lf{
@@ -31,65 +32,61 @@
 }
 .w1b1{
     clear: both;
-    height: 0.2rem;
-   
-    padding-top: 0.5rem;
+
   
 }
 .w1a1{
     position: absolute;
-    margin-top: 0.6rem;
+    margin-top:60px;
    left: 50%;
-    left:1rem;
+    left:100px;
 
-    position: fixed;
-    z-index: 99;
-    top: 0;
-    left: 1.1rem;
 }
 .w1f1{
     background: #b92619;
     border: 0;
-    border: 0.01rem solid #b92619;
-    margin-left: -0.05rem;
+    border: 1px solid #b92619;
+    margin-left:-5px;
     color: #fff;
-   width: 0.53rem;
-   height: 0.35rem;
+   width: 53px;
+   height:35px;
 }
 .w1f2{
-    border: 0.01rem solid #b92619;
-    width: 2.36rem;
-    height: 0.35rem;
+    border:1px solid #b92619;
+    width: 236px;
+    height:35px;
 }
 .w1f11{
     
-    margin-left: 1.3rem;
+    margin-left:130px;
 }
 .w1b2{
-    height:1.7rem;
+    height:170px;
 
     text-align: center;
 }
 .w1p6{
-    width: 0.17rem;
-    height: 0.17rem;
+    width:17px;
+    height:17px;
 }
 .w1z1{
-    font-size: 0.3rem;
-    padding-top: 0.32rem;
+    font-size:30px;
+    padding-top:32px;
     font-weight: bold;
+    color: #666666;
 }
 .w1z2{
-    font-size: 0.2rem;
+    font-size:20px;
+    color:#666666;
 }
 .w1b3{
     background: #fff;
-    border:0.01rem solid #dcdcdc;
+    border:1px solid #dcdcdc;
   
 }
 .w1p2{
     width: 100%;
-    height: 3.26rem;
+    height:326px;
 }
 .w1b4{
     text-align: center;
@@ -97,28 +94,26 @@
 }
 .w1p3{
     width: 100%;
-
+    
 }
 
 .w1t1{
     overflow: hidden;
 }
 .w1b5{
-    background: pink;
+   
     text-align: center;
   
    
     
 }
-.w1lbt{
-    margin-top: 1.5rem;
-}
+
 .w1xtb{
     margin: 0 auto;
 }
 .w1p4{
     width: 100%;
-    height: 3.83rem;
+    height:383px;
 }
 .w1db1{
     width: 100%;
@@ -128,28 +123,28 @@
     background: #f2f2f2;
 }
 .w1p5{
-    width: 0.75rem;
-    height: 1.05rem;
+    width:75px;
+    height:105px;
     
 }
 .w1d11{
     position: absolute;
     left: 48%;
-    margin-top: 0.47rem;
+    margin-top:47px;
 }
 .w1hz1{
     clear: both;
-    padding-top: 1.92rem;
+    padding-top:192px;
    width: 100%;
 }
 .w1lb1{
-    line-height: 0.3rem;
+    line-height:30px;
     float:left;
-    margin-left:-1.6rem;
+    margin-left:-160px;
 }
 .w1b11{
    
-    font-size: 0.18rem;
+    font-size: 18px;
     font-weight: bold;
    
 }
@@ -160,12 +155,12 @@
    color:#9f9f9f;
 }
 .w1b12{
-    margin-left: 0.05rem;
+    margin-left:5px;
 }
 .w1db2{
     position: absolute;
    margin: 0 auto;
-    margin-top: 0.43rem;
+    margin-top:43px;
     color: #8f8f8f;
 }
 .w1lb1>li>a:hover{
@@ -176,16 +171,56 @@
     text-align: center;
 }
 .w1p7{
-    width: 0.3rem;
-    height: 0.3rem;
-    margin-top: 0.4rem;
+    width:30px;
+    height:30px;
+    margin-top:40px;
 }
 .w1p8{
-    font-size: 0.26rem;
+    font-size:26px;
 }
 .w1p8>span{
     color:#9e241d;
 }
 .w1p9{
-    letter-spacing:0.04rem;
+    letter-spacing:4px;
+}
+
+
+
+/* wy2的css */
+.w2p1{
+   width: 100%;
+
+}
+.w2z11{
+    font-size: 16px;
+    color:#515151;
+    padding-top:10px;
+    font-weight: bold;
+}
+.w2bj1{
+    font-size: 16px;
+    color: #686868;
+}
+.w2z12{
+    padding-top: 15px;
+}
+/* wy3的css */
+.w3bj1{
+    height: 322px;
+}
+.w3p1{
+    width: 100%;
+}
+.w3z1{
+    padding-top: 29px;
+    color: #606060;
+    font-weight: bold;
+}
+.w3z2{
+    color: #6a6a6a;
+}
+.w3p2{
+    width: 30px;
+    height: 30px;
 }
